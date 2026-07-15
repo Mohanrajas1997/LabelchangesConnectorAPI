@@ -5347,7 +5347,7 @@ namespace MysqlEfCoreDemo.Controllers
                             LineTerminator = lineterm,         // CSV line terminator
                             FileName = csvfilePath,
                             NumberOfLinesToSkip = csvheader[0].number_oflines_toskip,      // Skip the header row if necessary
-                            CharacterSet = "utf8",   // Set the character set
+                            CharacterSet = "utf8mb4",   // Set the character set
                             Local = true,
                             Timeout = 0
                         };
@@ -5476,7 +5476,7 @@ namespace MysqlEfCoreDemo.Controllers
                             LineTerminator = lineterm,         // CSV line terminator
                             FileName = rawFilePath,
                             NumberOfLinesToSkip = csvheader[0].number_oflines_toskip,      // Skip the header row if necessary
-                            CharacterSet = "utf8",   // Set the character set
+                            CharacterSet = "utf8mb4",   // Set the character set
                             Local = true,
                             Timeout = 0
                         };
@@ -6130,7 +6130,7 @@ namespace MysqlEfCoreDemo.Controllers
                             LineTerminator = lineterm,         // CSV line terminator
                             FileName = csvfilePath,
                             NumberOfLinesToSkip = 1,      // Skip the header row if necessary
-                            CharacterSet = "utf8",   // Set the character set
+                            CharacterSet = "utf8mb4",   // Set the character set
                             Local = true,
                             Timeout = 0
                         };
